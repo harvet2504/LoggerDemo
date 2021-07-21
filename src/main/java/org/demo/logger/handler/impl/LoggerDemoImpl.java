@@ -74,6 +74,7 @@ public class LoggerDemoImpl implements LoggerDemo {
                 levelValue = 3;
             }
             databaseLogger.runUpdate("insert into Log_Values VALUES('" + messageText + "', " + levelValue + ")");
+            logger.log(Level.INFO, messageText);
         }
     }
 }

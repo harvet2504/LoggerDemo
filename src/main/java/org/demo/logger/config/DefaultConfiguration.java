@@ -1,11 +1,13 @@
 package org.demo.logger.config;
 
+import java.io.File;
+
 public class DefaultConfiguration  {
 
 	public String getProperty(final String property) {
 		String propertyValue = null;
 		if (property.equals("logger.logFilePath")) {
-			propertyValue = ".\\data\\logFile.txt";
+			propertyValue = "." + File.separator + "data" + File.separator + "logFile.txt";
 		} else if (property.equals("logger.bd.userName")) {
 			propertyValue = "admin";
 		} else if (property.equals("logger.bd.password")) {
