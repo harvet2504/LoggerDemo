@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-07-21T15:51:10.718098500Z</date>
+  <millis>1626882670718</millis>
+  <nanos>98500</nanos>
+  <sequence>0</sequence>
+  <logger>Log Application</logger>
+  <level>INFO</level>
+  <class>org.demo.logger.handler.impl.LoggerDemoImpl</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Log message for printing in file</message>
+</record>
+<record>
+  <date>2021-07-21T15:51:10.764072300Z</date>
+  <millis>1626882670764</millis>
+  <nanos>72300</nanos>
+  <sequence>1</sequence>
+  <logger>Log Application</logger>
+  <level>INFO</level>
+  <class>org.demo.logger.handler.impl.LoggerDemoImpl</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Log message for printing in console</message>
+</record>
+</log>
